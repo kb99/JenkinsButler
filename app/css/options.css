@@ -1,0 +1,46 @@
+﻿
+
+div.optionsWidth {
+  width: 780px;
+  /*height: 560px;*/
+}
+
+.selectedJenkinsJobs-wrapper-div {
+    overflow: auto;
+    max-height: 400px;
+}
+
+.jenkinsConfigContainer {
+     overflow: auto;
+    max-height: 420px;
+}
+
+.jenkinsJobSelector-wrapper-div {
+    overflow: auto;
+    max-height: 370px;
+}
+
+.x-button {
+    background-color: #286090;
+}
+
+.spacer {
+    margin-top: 20px; 
+}
+
+.border-between > [class*='col-']:before {
+ background: #e3e3e3;
+ bottom: 0;
+ content: " ";
+ left: 0;
+ position: absolute;
+ width: 1px;
+ top: 0;
+}
+.border-between > [class*='col-']:first-child:before {
+ display: none;
+}
+
+/* {
+   outline: 1px solid red;
+  }*/
